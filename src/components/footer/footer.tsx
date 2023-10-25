@@ -1,4 +1,3 @@
-import React from 'react'
 import tick from "../assets/tick.png"
 
 export default function footer() {
@@ -9,15 +8,15 @@ export default function footer() {
             <p className=' text-[10px] sm:text-[15px]  text-zinc-500'>More about what this can do for your business.</p>
         </div>
         <div className='flex flex-wrap justify-center items-center my-10'>
-            <div className='flex flex-col items-center justify-center'>
+            <div className='flex flex-col items-center justify-center shadow-2xl rounded-lg'>
                 <img className='w-5 h-5 my-2'  src={tick} alt="" />
                 <h2 className='text-xl capitalize'>Clean & simple</h2>
                 <p className='max-w-[300px] text-[10px] py-3 text-center '>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, mollitia inventore</p>
-            </div><div className='flex flex-col items-center justify-center'>
+            </div><div className='flex flex-col items-center justify-center shadow-2xl rounded-lg'>
                 <img className='w-5 h-5 my-2'  src={tick} alt="" />
                 <h2 className='text-xl capitalize'>Clean & simple</h2>
                 <p className='max-w-[300px] text-[10px] py-3 text-center '>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, mollitia inventore</p>
-            </div><div className='flex flex-col items-center justify-center'>
+            </div><div className='flex flex-col items-center justify-center shadow-2xl rounded-lg'>
                 <img className='w-5 h-5 my-2'  src={tick} alt="" />
                 <h2 className='text-xl capitalize'>Clean & simple</h2>
                 <p className='max-w-[300px] text-[10px] py-3 text-center '>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, mollitia inventore</p>
